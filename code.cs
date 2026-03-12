@@ -3,6 +3,11 @@ using System.Collections;
 
 
 public class Stack {
+	
+	// Old Code:
+	// ArrayList stack = new();
+	
+	// Corrected Code:
     ArrayList stack = new ArrayList();
 
     public Stack() {}
@@ -29,6 +34,8 @@ public class Stack {
     }
 }
 
+
+// Add this to allow compilation and execution
 class Program {
 	public static void Main(string[] args) {
 	}
